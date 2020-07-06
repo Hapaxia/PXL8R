@@ -8,17 +8,17 @@ based on PXL8 (July 2014)
 
 Pixelation Class
 
-Creates a pixelated render target. It is drawn to using views in a similar fashion to SFML.
-The size of the pixels can be specified (both dimensions can be specified separately) which changes the amount of pixelation.
-The class is an sf::Drawable so can be drawn directly to your window as normal. It is also transformable so can be transformed as normal.
-PXL8R is contained within a single header file.
-Now features "pixel lock" that internally resizes pixels so that the division is a whole number.
+Creates a pixelated render target. It is drawn to using views in a similar fashion to SFML.  
+The size of the pixels can be specified (both dimensions can be specified separately) which changes the amount of pixelation.  
+The class is an sf::Drawable so can be drawn directly to your window as normal. It is also transformable so can be transformed as normal.  
+PXL8R is contained within a single header file.  
+Now features "pixel lock" that internally resizes pixels so that the division is a whole number.  
 
-See example.cpp to see it in action.
-It requires a font for the overlay text and an image as an example pixelation test. Some are provided for use with this example only but you can easily use your own instead.
-Anti-alias is automatically set to display the rotation more nicely. It doesn't affect the pixelation. Anti-alias is set to 16; if 16 is not available, it should pick the highest available (below 16). You can change this to 0 (or comment out the line) to remove anti-aliasing.
+**See example.cpp to see it in action.**  
+It requires a font for the overlay text and an image as an example pixelation test. Some are provided for use with this example only but you can easily use your own instead.  
+Anti-alias is automatically set to display the rotation more nicely. It doesn't affect the pixelation. Anti-alias is set to 16; if 16 is not available, it should pick the highest available (below 16). You can change this to 0 (or comment out the line) to remove anti-aliasing.  
 
-Controls for example.cpp:
+_Controls for example.cpp:_  
 
 ## SIZING
     1 and 2 - reduce and expand respectively the pixel size.
